@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		386261E5201F147300ED6C58 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 386261E4201F147300ED6C58 /* AppDelegate.m */; };
+		386261E8201F147400ED6C58 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 386261E7201F147400ED6C58 /* ViewController.m */; };
+		386261EB201F147400ED6C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386261E9201F147400ED6C58 /* Main.storyboard */; };
+		386261ED201F147400ED6C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386261EC201F147400ED6C58 /* Assets.xcassets */; };
+		386261F0201F147500ED6C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386261EE201F147500ED6C58 /* LaunchScreen.storyboard */; };
+		386261F3201F147500ED6C58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 386261F2201F147500ED6C58 /* main.m */; };
+		386261FD201F147600ED6C58 /* PDFExcelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 386261FC201F147600ED6C58 /* PDFExcelDemoTests.m */; };
+		38626208201F147600ED6C58 /* PDFExcelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38626207201F147600ED6C58 /* PDFExcelDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		386261F9201F147600ED6C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386261D8201F147300ED6C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386261DF201F147300ED6C58;
+			remoteInfo = PDFExcelDemo;
+		};
+		38626204201F147600ED6C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 386261D8201F147300ED6C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 386261DF201F147300ED6C58;
+			remoteInfo = PDFExcelDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		386261E0201F147300ED6C58 /* PDFExcelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFExcelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		386261E3201F147300ED6C58 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		386261E4201F147300ED6C58 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		386261E6201F147400ED6C58 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		386261E7201F147400ED6C58 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		386261EA201F147400ED6C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		386261EC201F147400ED6C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		386261EF201F147500ED6C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		386261F1201F147500ED6C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386261F2201F147500ED6C58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		386261F8201F147600ED6C58 /* PDFExcelDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFExcelDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		386261FC201F147600ED6C58 /* PDFExcelDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFExcelDemoTests.m; sourceTree = "<group>"; };
+		386261FE201F147600ED6C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38626203201F147600ED6C58 /* PDFExcelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFExcelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38626207201F147600ED6C58 /* PDFExcelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFExcelDemoUITests.m; sourceTree = "<group>"; };
+		38626209201F147600ED6C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		386261DD201F147300ED6C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386261F5201F147600ED6C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38626200201F147600ED6C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		386261D7201F147300ED6C58 = {
+			isa = PBXGroup;
+			children = (
+				386261E2201F147300ED6C58 /* PDFExcelDemo */,
+				386261FB201F147600ED6C58 /* PDFExcelDemoTests */,
+				38626206201F147600ED6C58 /* PDFExcelDemoUITests */,
+				386261E1201F147300ED6C58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		386261E1201F147300ED6C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				386261E0201F147300ED6C58 /* PDFExcelDemo.app */,
+				386261F8201F147600ED6C58 /* PDFExcelDemoTests.xctest */,
+				38626203201F147600ED6C58 /* PDFExcelDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		386261E2201F147300ED6C58 /* PDFExcelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				386261E3201F147300ED6C58 /* AppDelegate.h */,
+				386261E4201F147300ED6C58 /* AppDelegate.m */,
+				386261E6201F147400ED6C58 /* ViewController.h */,
+				386261E7201F147400ED6C58 /* ViewController.m */,
+				386261E9201F147400ED6C58 /* Main.storyboard */,
+				386261EC201F147400ED6C58 /* Assets.xcassets */,
+				386261EE201F147500ED6C58 /* LaunchScreen.storyboard */,
+				386261F1201F147500ED6C58 /* Info.plist */,
+				386261F2201F147500ED6C58 /* main.m */,
+			);
+			path = PDFExcelDemo;
+			sourceTree = "<group>";
+		};
+		386261FB201F147600ED6C58 /* PDFExcelDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				386261FC201F147600ED6C58 /* PDFExcelDemoTests.m */,
+				386261FE201F147600ED6C58 /* Info.plist */,
+			);
+			path = PDFExcelDemoTests;
+			sourceTree = "<group>";
+		};
+		38626206201F147600ED6C58 /* PDFExcelDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38626207201F147600ED6C58 /* PDFExcelDemoUITests.m */,
+				38626209201F147600ED6C58 /* Info.plist */,
+			);
+			path = PDFExcelDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		386261DF201F147300ED6C58 /* PDFExcelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3862620C201F147600ED6C58 /* Build configuration list for PBXNativeTarget "PDFExcelDemo" */;
+			buildPhases = (
+				386261DC201F147300ED6C58 /* Sources */,
+				386261DD201F147300ED6C58 /* Frameworks */,
+				386261DE201F147300ED6C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFExcelDemo;
+			productName = PDFExcelDemo;
+			productReference = 386261E0201F147300ED6C58 /* PDFExcelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		386261F7201F147600ED6C58 /* PDFExcelDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3862620F201F147600ED6C58 /* Build configuration list for PBXNativeTarget "PDFExcelDemoTests" */;
+			buildPhases = (
+				386261F4201F147600ED6C58 /* Sources */,
+				386261F5201F147600ED6C58 /* Frameworks */,
+				386261F6201F147600ED6C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				386261FA201F147600ED6C58 /* PBXTargetDependency */,
+			);
+			name = PDFExcelDemoTests;
+			productName = PDFExcelDemoTests;
+			productReference = 386261F8201F147600ED6C58 /* PDFExcelDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38626202201F147600ED6C58 /* PDFExcelDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38626212201F147600ED6C58 /* Build configuration list for PBXNativeTarget "PDFExcelDemoUITests" */;
+			buildPhases = (
+				386261FF201F147600ED6C58 /* Sources */,
+				38626200201F147600ED6C58 /* Frameworks */,
+				38626201201F147600ED6C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38626205201F147600ED6C58 /* PBXTargetDependency */,
+			);
+			name = PDFExcelDemoUITests;
+			productName = PDFExcelDemoUITests;
+			productReference = 38626203201F147600ED6C58 /* PDFExcelDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		386261D8201F147300ED6C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zk;
+				TargetAttributes = {
+					386261DF201F147300ED6C58 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					386261F7201F147600ED6C58 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 386261DF201F147300ED6C58;
+					};
+					38626202201F147600ED6C58 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 386261DF201F147300ED6C58;
+					};
+				};
+			};
+			buildConfigurationList = 386261DB201F147300ED6C58 /* Build configuration list for PBXProject "PDFExcelDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 386261D7201F147300ED6C58;
+			productRefGroup = 386261E1201F147300ED6C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				386261DF201F147300ED6C58 /* PDFExcelDemo */,
+				386261F7201F147600ED6C58 /* PDFExcelDemoTests */,
+				38626202201F147600ED6C58 /* PDFExcelDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		386261DE201F147300ED6C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386261F0201F147500ED6C58 /* LaunchScreen.storyboard in Resources */,
+				386261ED201F147400ED6C58 /* Assets.xcassets in Resources */,
+				386261EB201F147400ED6C58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386261F6201F147600ED6C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38626201201F147600ED6C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		386261DC201F147300ED6C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386261E8201F147400ED6C58 /* ViewController.m in Sources */,
+				386261F3201F147500ED6C58 /* main.m in Sources */,
+				386261E5201F147300ED6C58 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386261F4201F147600ED6C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				386261FD201F147600ED6C58 /* PDFExcelDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386261FF201F147600ED6C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38626208201F147600ED6C58 /* PDFExcelDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		386261FA201F147600ED6C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386261DF201F147300ED6C58 /* PDFExcelDemo */;
+			targetProxy = 386261F9201F147600ED6C58 /* PBXContainerItemProxy */;
+		};
+		38626205201F147600ED6C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 386261DF201F147300ED6C58 /* PDFExcelDemo */;
+			targetProxy = 38626204201F147600ED6C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		386261E9201F147400ED6C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386261EA201F147400ED6C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		386261EE201F147500ED6C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				386261EF201F147500ED6C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3862620A201F147600ED6C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3862620B201F147600ED6C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3862620D201F147600ED6C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = PDFExcelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.pdfDemo.PDFExcelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3862620E201F147600ED6C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = PDFExcelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.pdfDemo.PDFExcelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38626210201F147600ED6C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = PDFExcelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.pdfDemo.PDFExcelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFExcelDemo.app/PDFExcelDemo";
+			};
+			name = Debug;
+		};
+		38626211201F147600ED6C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = PDFExcelDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.pdfDemo.PDFExcelDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFExcelDemo.app/PDFExcelDemo";
+			};
+			name = Release;
+		};
+		38626213201F147600ED6C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = PDFExcelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.pdfDemo.PDFExcelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDFExcelDemo;
+			};
+			name = Debug;
+		};
+		38626214201F147600ED6C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2Y8Q3RAAW;
+				INFOPLIST_FILE = PDFExcelDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk.pdfDemo.PDFExcelDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PDFExcelDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		386261DB201F147300ED6C58 /* Build configuration list for PBXProject "PDFExcelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3862620A201F147600ED6C58 /* Debug */,
+				3862620B201F147600ED6C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3862620C201F147600ED6C58 /* Build configuration list for PBXNativeTarget "PDFExcelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3862620D201F147600ED6C58 /* Debug */,
+				3862620E201F147600ED6C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3862620F201F147600ED6C58 /* Build configuration list for PBXNativeTarget "PDFExcelDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38626210201F147600ED6C58 /* Debug */,
+				38626211201F147600ED6C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38626212201F147600ED6C58 /* Build configuration list for PBXNativeTarget "PDFExcelDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38626213201F147600ED6C58 /* Debug */,
+				38626214201F147600ED6C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 386261D8201F147300ED6C58 /* Project object */;
+}
