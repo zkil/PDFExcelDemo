@@ -51,7 +51,18 @@
                             <constraint firstItem="dlo-eZ-YqQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pjl-wl-qwS"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="eJx-um-A0x"/>
+                    <navigationItem key="navigationItem" id="eJx-um-A0x">
+                        <barButtonItem key="rightBarButtonItem" title="144" style="plain" id="TGp-vx-rOm">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="w7E-EQ-DtN">
+                                <rect key="frame" x="321" y="7" width="38" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="share"/>
+                                <connections>
+                                    <action selector="shareBtnAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="h4R-77-RV0"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="webView" destination="dlo-eZ-YqQ" id="hiH-eP-UCa"/>
                     </connections>

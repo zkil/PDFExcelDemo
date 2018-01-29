@@ -29,12 +29,20 @@
     self.data = allInfo;
     
     NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
-    NSString *filePath = [path stringByAppendingPathComponent:@"test.PDF"];
+    NSString *filePath = [path stringByAppendingPathComponent:@"test.pdf"];
     [self drawPDF:filePath];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL fileURLWithPath:filePath]];
     [self.webView loadRequest:request];
     
+}
+- (IBAction)shareBtnAction:(id)sender {
+    NSString *path = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES)[0];
+    NSString *filePath = [path stringByAppendingPathComponent:@"test.pdf"];
+    [self drawPDF:filePath];
+    UIDocumentInteractionController *shareVC = [UIDocumentInteractionController interactionControllerWithURL:[NSURL fileURLWithPath:filePath]];
+    shareVC.UTI = @"PDFExcelDemo";
+    [shareVC presentOpenInMenuFromRect:CGRectZero inView:self.view animated:YES];
 }
 
 - (void)drawPDF:(NSString *)filePath {
